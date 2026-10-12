@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (pp-12 "pp-12.cpp" "pp-12.h")
+add_executable (pp-12 "pp-12.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET pp-12 PROPERTY CXX_STANDARD 20)
